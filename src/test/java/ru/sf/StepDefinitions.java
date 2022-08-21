@@ -23,7 +23,7 @@ public class StepDefinitions {
 
     //Процесс инициализации необходимых ресурсов
     static {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\amidi\\IdeaProjects\\сс-scenario\\src\\test\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/Users/ekuri/Downloads/chromedriver_win32(2)/chromedriver.exe");
         webDriver = new ChromeDriver();
         webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         webDriver.manage().window().maximize();
